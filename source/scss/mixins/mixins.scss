@@ -1,0 +1,16 @@
+/* Mixin para cor_default dos botões da atividade */
+@mixin color_default ($color-border, $color-font, $px-border:1px, $color-bg:#fff){
+	background-color: $color-bg;
+	border: $px-border solid $color-border;
+	color: $color-font;
+}
+
+@mixin btn_hover ($color-bg, $color-font:#fff){
+	background-color: $color-bg;
+	color: $color-font;
+}
+
+@mixin txt_modal ($color-fonte, $tam-fonte:2rem){
+	color: $color-fonte;
+	font-size: $tam-fonte;
+}

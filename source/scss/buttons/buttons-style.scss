@@ -1,0 +1,43 @@
+.btn.btn-tema-primary {
+	@include color_default($btn-border-primary, $btn-color-primary);
+
+	&:hover {
+		@include btn_hover ($btn-bg-primary);
+	}
+	&:focus {
+    	box-shadow: none;
+  	}
+}
+
+.btn.btn-tema-warning {
+	@include color_default($btn-border-warning, $btn-color-warning);
+
+	&:hover {
+		@include btn_hover($btn-bg-warning);
+	}
+	&:focus {
+    	box-shadow: none;
+  	}
+}
+
+.btn.btn-tema-info {
+	@include color_default($btn-border-info, $btn-color-info);
+
+	&:hover {
+		@include btn_hover($btn-bg-info);
+	}
+	&:focus {
+    	box-shadow: none;
+  	}
+}
+
+.btn.btn-tema-danger {
+	@include color_default($btn-border-danger, $btn-color-danger);
+	
+	&:hover {
+		@include btn_hover($btn-bg-danger);
+	}
+	&:focus {
+    	box-shadow: none;
+  	}
+}

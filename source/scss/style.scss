@@ -1,0 +1,14 @@
+/* Variáveis */
+@import "./source/scss/variaveis.scss";
+
+/* Mixins */
+@import "./source/scss/mixins/mixins.scss";
+
+/* CSS Geral */
+@import "./source/scss/basico.scss";
+
+
+
+/* Css Componentes Bootstrap */
+@import "./source/scss/buttons/buttons.scss";
+@import "./source/scss/modal/modal.scss";

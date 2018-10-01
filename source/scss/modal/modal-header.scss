@@ -1,0 +1,18 @@
+.modal-tema.modal-primary .modal-header{
+	background-color: $btn-bg-primary;
+}
+.modal-tema.modal-warning .modal-header{
+	background-color: $btn-bg-warning;
+}
+.modal-tema.modal-info .modal-header{
+	background-color: $btn-bg-info;
+}
+.modal-tema.modal-danger .modal-header{
+	background-color: $btn-bg-danger;
+}
+
+.modal-tema .modal-header .modal-title,
+.modal-tema .modal-header .close {
+	padding: .4rem;
+	color: #fff;
+}

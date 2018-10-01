@@ -1,0 +1,26 @@
+{
+  "name": "atividade5",
+  "description": "Atividade Pratica - Modulo 7",
+  "main": "index.js",
+  "authors": [
+    "Leonardo T."
+  ],
+  "license": "ISC",
+  "keywords": [
+    "curso",
+    "atividade",
+    "refatoracao",
+    "bootstrap"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}

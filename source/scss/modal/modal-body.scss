@@ -1,0 +1,19 @@
+.modal-tema.modal-primary .modal-body h1 {
+	@include txt_modal($btn-color-primary);
+}
+
+.modal-tema.modal-warning .modal-body h1 {
+	@include txt_modal($btn-color-warning);
+}
+
+.modal-tema.modal-info .modal-body h1 {
+	@include txt_modal($btn-color-info);
+}
+
+.modal-tema.modal-danger .modal-body h1 {
+	@include txt_modal($btn-color-danger);
+}
+
+.modal-tema .modal-body small{
+	font-size: 1.2rem;
+}
